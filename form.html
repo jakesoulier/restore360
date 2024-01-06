@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div id="profile">
+            <img src="imgs/profile.JPG" alt="Profile Picture">
+            <h1>John Doe</h1>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Aqua</a></li>
+            <li><a href="#">Pictures</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <style>
+            
+        </style>
+        <form action="index.html">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required><br><br>
+            <label for="date-of-loss">Date of Loss:</label>
+            <input type="date" id="date-of-loss" name="date-of-loss" ><br><br>
+            <label for="date-claim-created">Date Claim Created:</label>
+            <input type="date" id="date-claim-created" name="date-claim-created" ><br><br>
+            <label for="type-of-loss">Type of Loss:</label>
+            <select id="type-of-loss" name="type-of-loss" >
+                <option value="fire">Fire</option>
+                <option value="water">Water</option>
+                <option value="mold">Mold</option>
+            </select><br><br>
+            <label for="insurance-company">Insurance Company:</label>
+            <input type="text" id="insurance-company" name="insurance-company" ><br><br>
+            <label for="policy-number">Policy Number:</label>
+            <input type="text" id="policy-number" name="policy-number" ><br><br>
+            <label for="cat-code">CAT Code:</label>
+            <input type="text" id="cat-code" name="cat-code" ><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
